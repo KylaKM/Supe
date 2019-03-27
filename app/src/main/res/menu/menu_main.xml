@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.dininghall.MainActivity">
+
+    <item
+        android:id="@+id/today"
+        android:orderInCategory="100"
+        android:title="@string/today"
+        app:showAsAction = "ifRoom"
+         />
+    <item
+        android:id="@+id/tomorrow"
+        android:orderInCategory="100"
+        android:title="@string/tomorrow"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/week"
+        android:orderInCategory="100"
+        android:title="@string/week"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/my_account_info"
+        android:orderInCategory="100"
+        android:title="@string/my_account_info"
+        app:showAsAction="ifRoom"
+        />
+</menu>

@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Dining Hall Menu</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="breakfast">Breakfast:</string>
+    <string name="breakfast_option_1">• Hot Cereal Bar (Wheat)</string>
+    <string name="breakfast_option_2">• American Home Fries</string>
+    <string name="breakfast_option_3">• Smoked Sausage(GF)</string>
+    <string name="breakfast_option_4">• Cheese Frittata (Dairy, Eggs)</string>
+    <string name="assorted_bakery">• Assorted Bakery</string>
+    <string name="lunch">Lunch</string>
+    <string name="lunch_option_1">• Keweenaw Bowl (Wheat, Milk)</string>
+    <string name="lunch_option_2">• Pho Bar (Soy)</string>
+    <string name="assorted_desserts">• Assorted Desserts</string>
+    <string name="dinner">Dinner</string>
+    <string name="dinner_option_1">• Thai Salmon (GF)</string>
+    <string name="dinner_option_2">• Egg Rolls (Wheat, Soy)</string>
+    <string name="dinner_option_3">• Crab Rangoon (Shellfish, Wheat, Soy, Milk)</string>
+    <string name="dinner_option_4">• Sesame Chicken (Wheat, Soy)</string>
+    <string name="dinner_option_5">• Rice (GF)</string>
+    <string name="vegetables">• Chef Vegetables</string>
+    <string name="brunch">Brunch:</string>
+    <string name="brunch_option_1">• French Toast (Wheat, Soy, Milk, Eggs)</string>
+    <string name="brunch_option_2">• Sloppy Joes (Wheat)</string>
+    <string name="brunch_option_3">• Bacon (GF)</string>
+    <string name="dinner_option_7">• Boneless Chicken Wings (Wheat, Dairy, Eggs)</string>
+    <string name="dinner_option_8">• Waffle Fries (Wheat)</string>
+    <string name="continental_breakfast">• Continental Breakfast</string>
+    <string name="today">Today</string>
+    <string name="tomorrow">Tomorrow</string>
+    <string name="week">Week</string>
+    <string name="my_account_info">My Account Info</string>
+</resources>
