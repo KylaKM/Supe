@@ -1,0 +1,29 @@
+[
+  {
+    "Monday": "Breakfast:\nScrambled Eggs (egg)\nBreakfast Quesadillas (wheat,\negg, dairy)\nSausage Link (GF)\nJalapeno Potato Bites (milk,\nwheat)\nAssorted Bakery\n",
+    "Tuesday": "Breakfast:\nFrench Toast Sticks (wheat,\nmilk, soy, eggs)\nHash Browns (GF)\nPeppered Bacon (GF)\nAssorted Bakery\n",
+    "Wednesday": "Breakfast:\nOatmeal\nCheese Quiche (milk, egg,\nwheat)\nFried Potatoes\nHam (GF)\nAssorted Bakery\n",
+    "Thursday": "Breakfast:\nScrambled Eggs (egg) (GF)\nHash Brown Patty (GF)\nSausage Patty (GF)\nAssorted Bakery\n",
+    "Friday": "Breakfast:\nHot Cereal Bar (wheat)\nPancakes (wheat, milk, soy,\neggs)\nSmoked Sausage (GF)\nBattered Mash Potato Bites\n(milk, soy)\n",
+    "Saturday": "Breakfast:\nContinental Breakfast\nAssorted Bakery\n",
+    "Sunday": "Breakfast:\nContinental Breakfast\nAssorted Bakery\n"
+  },
+  {
+    "Monday": "Lunch:\nChicken Chimichanga (dairy,\nsoy, wheat)\nAsian Chicken Salad (wheat,\nsoy)\nNachos (milk) (GF)\nFrito Pie (milk) (GF)\nAssorted Desserts\n",
+    "Tuesday": "Lunch:\nPeppered Turkey and\nCheese Sandwich (milk,\nwheat)\nTator Tot Casserole (wheat,\nsoy, milk)\nAssorted Desserts\n",
+    "Wednesday": "Lunch:\nKeweenaw Bowl (wheat,\nmilk, soy)\nAssorted Desserts\n",
+    "Thursday": "Lunch:\nChicken Caesar Wrap\n(wheat, milk, fish, egg, soy)\nReuben Sandwich (wheat,\nmilk, soy, egg)\nRachel Sandwich (wheat,\nmilk, soy, egg)\nCurly Fries (wheat)\nAssorted Desserts\n",
+    "Friday": "Lunch:\nChicken and Dumplings\n(wheat, milk, soy, egg)\nCheese Quesadilla (wheat,\nmilk)\nTex Mex Bowl  (milk) (GF)\nAssorted Desserts\n",
+    "Saturday": "Brunch:\nFrench Toast Sticks (wheat,\nmilk, soy, egg)\nO’Brien Potatoes (GF)\nSausage Links (GF)\nSloppy Joes (wheat, milk,\nsoy)\nAssorted Bakery\n",
+    "Sunday": "Brunch:\nMcTech on a Biscuit (wheat,\nsoy, milk, egg)\nCanadian Bacon (GF)\nPotato Triangle (GF)\nHot Dogs (bun contains\nwheat, dairy, soy)\nAssorted Bakery\n"
+  },
+  {
+    "Monday": "Dinner:\nGrilled Chicken Sandwich\n(wheat, milk, soy)\nBeef Sirloin Tips over Egg\nNoodles (wheat, soy, eggs)\nAssorted Desserts\n",
+    "Tuesday": "Dinner:\nChicken Parmesan (soy,\nwheat, milk)\nMostaccioli Pasta (egg,\nwheat)\nGarlic Bread (wheat, milk)\nMixed Sausage Grill (GF)\nAssorted Desserts\n",
+    "Wednesday": "Dinner:\nCountry Style BBQ Ribs\nGarlic Mashed Potatoes\n(milk)\nPotato Cheddar Breaded\nCod (milk, fish, wheat, soy)\nAssorted Desserts\n",
+    "Thursday": "Dinner:\nMongolian Beef and\nBroccoli (wheat, soy)\nOrange Chicken (wheat,\nsoy)\nRice\nChef Vegetables\nAssorted Desserts\n",
+    "Friday": "Dinner:\nBreaded Cod (wheat, soy, egg,\nmilk, fish)\nVegetable Dumpling (wheat,\nsoy)\nSteak Fries (GF)\nChicken Cordon Bleu (wheat,\nmilk)\nAssorted Desserts\n",
+    "Saturday": "Dinner:\nChicken Loaded Potatoes\n(milk)\nBulgogi Beef (soy)\nMushroom Parmesan (milk)\nGreen Beans (GF)\nAssorted Desserts\n",
+    "Sunday": "Dinner:\nRoasted Turkey (GF)\nPork Fritter (wheat, milk)\nMashed Potatoes (milk)\nGravy (wheat, milk, soy)\nAssorted Desserts\n"
+  }
+]

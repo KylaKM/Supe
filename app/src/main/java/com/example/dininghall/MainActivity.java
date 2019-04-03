@@ -1,26 +1,13 @@
 package com.example.dininghall;
-
 import android.content.Intent;
 import android.net.Uri;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.design.widget.TabLayout;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
-import android.view.ViewGroup;
-import android.widget.TableLayout;
-import android.widget.TextView;
-import java.util.Calendar;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -28,13 +15,14 @@ public class MainActivity extends AppCompatActivity {
     private SectionsPageAdapter mSectionsPageAdapter;
     private ViewPager mViewPager;
     private int[] tabIcons = {
-        R.drawable.ic_action_name,
-        R.drawable.ic_action_tomorrow,
-        R.drawable.ic_action_week
+            R.drawable.ic_action_name,
+            R.drawable.ic_action_tomorrow,
+            R.drawable.ic_action_week
     };
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Log.d(TAG, "onCreate: Starting");
@@ -68,25 +56,10 @@ public class MainActivity extends AppCompatActivity {
         return true;
     }
 
-//    Calendar calendar = Calendar.getInstance();
-//    int day = calendar.get(Calendar.DAY_OF_WEEK);
-//
-//    switch (day) {
-//        case Calendar.SUNDAY:
-//            // Current day is Sunday
-//            break;
-//        case Calendar.MONDAY:
-//            // Current day is Monday
-//            break;
-//        case Calendar.TUESDAY:
-//            // etc.
-//            break;
-//    }
-
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
-        switch(id) {
+        switch (id) {
             case R.id.today:
                 Intent today = new Intent(this, MainActivity.class);
                 startActivity(today);
