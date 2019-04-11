@@ -78,7 +78,7 @@ public class Tab3Fragment extends Fragment {
 
     public void setWeek() {
         for(String str : menu.keySet()) {
-            week += str + "\n" + menu.get(str);
+            week += str + "\n\n" + menu.get(str) + "\n";
 
         }
      }

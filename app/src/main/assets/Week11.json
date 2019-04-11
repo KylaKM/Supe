@@ -1,10 +1,10 @@
 [
   {
-    "Monday": "Breakfast:\nScrambled Eggs (egg)\nBreakfast Quesadillas (wheat,\negg, dairy)\nSausage Link (GF)\nJalapeno Potato Bites (milk,\nwheat)\nAssorted Bakery\n",
-    "Tuesday": "Breakfast:\nFrench Toast Sticks (wheat,\nmilk, soy, eggs)\nHash Browns (GF)\nPeppered Bacon (GF)\nAssorted Bakery\n",
-    "Wednesday": "Breakfast:\nOatmeal\nCheese Quiche (milk, egg,\nwheat)\nFried Potatoes\nHam (GF)\nAssorted Bakery\n",
-    "Thursday": "Breakfast:\nScrambled Eggs (egg) (GF)\nHash Brown Patty (GF)\nSausage Patty (GF)\nAssorted Bakery\n",
-    "Friday": "Breakfast:\nHot Cereal Bar (wheat)\nPancakes (wheat, milk, soy,\neggs)\nSmoked Sausage (GF)\nBattered Mash Potato Bites\n(milk, soy)\n",
+    "Monday": "Breakfast:\n\tScrambled Eggs (egg)\nBreakfast Quesadillas (wheat,\negg, dairy)\nSausage Link (GF)\nJalapeno Potato Bites (milk,\nwheat)\nAssorted Bakery\n\n",
+    "Tuesday": "Breakfast:\nFrench Toast Sticks (wheat,\nmilk, soy, eggs)\nHash Browns (GF)\nPeppered Bacon (GF)\nAssorted Bakery\n\n",
+    "Wednesday": "Breakfast:\n\tOatmeal\n\tCheese Quiche (milk, egg,\n\twheat)\n\tFried Potatoes\n\tHam (GF)\n\tAssorted Bakery\n\n",
+    "Thursday": "Breakfast:\nScrambled Eggs (egg) (GF)\nHash Brown Patty (GF)\nSausage Patty (GF)\nAssorted Bakery\n\n",
+    "Friday": "Breakfast:\nHot Cereal Bar (wheat)\nPancakes (wheat, milk, soy,\neggs)\nSmoked Sausage (GF)\nBattered Mash Potato Bites\n(milk, soy)\n\n",
     "Saturday": "Breakfast:\nContinental Breakfast\nAssorted Bakery\n",
     "Sunday": "Breakfast:\nContinental Breakfast\nAssorted Bakery\n"
   },
