@@ -1,22 +1,18 @@
 package com.example.dininghall;
 import android.content.Intent;
 import android.net.Uri;
-import android.support.annotation.Nullable;
 import android.support.design.widget.TabLayout;
-import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v4.view.ViewPager;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.Menu;
-import android.view.MenuInflater;
 import android.view.MenuItem;
 
-public class MainActivity extends AppCompatActivity {
+public class Main2Activity extends AppCompatActivity {
 
-    private static final String TAG = "Wads";
-    Toolbar toolbar;
+    private static final String TAG = "McNair";
     private SectionsPageAdapter mSectionsPageAdapter;
     private ViewPager mViewPager;
     private int[] tabIcons = {
@@ -29,27 +25,27 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main2);
         Log.d(TAG, "onCreate: Starting");
 
         mSectionsPageAdapter = new SectionsPageAdapter(getSupportFragmentManager());
-        mViewPager = (ViewPager) findViewById(R.id.container);
+        mViewPager = (ViewPager) findViewById(R.id.container2);
         setupViewPager(mViewPager);
 
-        Toolbar myToolbar = (Toolbar) findViewById(R.id.toolbar);
+        android.support.v7.widget.Toolbar myToolbar = (Toolbar) findViewById(R.id.toolbar2);
         setSupportActionBar(myToolbar);
 
-        TabLayout tabLayout = (TabLayout) findViewById(R.id.tabs);
+        TabLayout tabLayout = (TabLayout) findViewById(R.id.tabs2);
         tabLayout.setupWithViewPager(mViewPager);
-
         setupTabIcons(tabLayout);
+
     }
 
     private void setupViewPager(ViewPager viewPager) {
         SectionsPageAdapter adapter = new SectionsPageAdapter(getSupportFragmentManager());
-        adapter.addFragment(new Tab1Fragment(), "Today");
-        adapter.addFragment(new Tab2Fragment(), "Tomorrow");
-        adapter.addFragment(new Tab3Fragment(), "Week");
+        adapter.addFragment(new Tab21Fragment(), "Today");
+        adapter.addFragment(new Tab22Fragment(), "Tomorrow");
+        adapter.addFragment(new Tab23Fragment(), "Week");
         viewPager.setAdapter(adapter);
     }
 
@@ -61,9 +57,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.menu.menu_main, menu);
-//        getMenuInflater().inflate(R.menu.menu_main, menu);
+        getMenuInflater().inflate(R.menu.menu_main2, menu);
         return true;
     }
 
@@ -96,11 +90,5 @@ public class MainActivity extends AppCompatActivity {
             default:
                 return super.onOptionsItemSelected(item);
         }
-    }
-
-    @Nullable
-    @Override
-    public ActionBar getSupportActionBar() {
-        return super.getSupportActionBar();
     }
 }

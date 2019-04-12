@@ -1,0 +1,29 @@
+[
+  {
+    "Monday": "Breakfast:\n\tScrambled Eggs (egg)\n\tSliced Ham (GF)\n\tJalapeno Potato Bites (wheat,\n\tmilk)\n\tAssorted Bakery\n",
+    "Tuesday": "Breakfast:\n\tFrench Toast (wheat, soy,\n\tmilk, egg)\n\tBacon (GF)\n\tSeasoned Potatoes (GF)\n\t Bakery\n",
+    "Wednesday": "Breakfast:\n\tHomemade Oatmeal\n\tCheese Blintzes (wheat,\n\tmilk)\n\tSmoked Sausage (GF)\n\tAssorted Bakery\n",
+    "Thursday": "Breakfast:\n\tMini Omelets (milk, egg)\n\t(GF)\n\tHash Brown Patties (GF)\n\tChicken Sausage (GF)\n\tAssorted Bakery\n",
+    "Friday": "Breakfast:\n\tPancakes (wheat, milk, egg,\n\tsoy)\n\tSausage Links (GF)\n\tFried Battered Mashed\n\tPotato Bites (milk, soy)\n\tAssorted Bakery\n",
+    "Saturday": "Breakfast:\n\tContinental Breakfast\n\tAssorted Bakery\n",
+    "Sunday": "Breakfast:\n\tContinental Breakfast\n\tAssorted Bakery\n"
+  },
+  {
+    "Monday": "Lunch:\n\tCalifornia Turkey Burger (bun\n\tcontains wheat)\n\tWhite Cheddar Mac and Cheese\n\tBar (milk, wheat, soy)\n\tChili Bar (GF)\n\tCorn Bread (GF)\n\tBreaded Potato Cheddar Bites\n\t(wheat, milk)\n\tAssorted Desserts\n",
+    "Tuesday": "Lunch:\n\tBBQ Chicken Thighs (GF)\n\tCorn Dogs (wheat, milk,\n\tsoy)\n\tWaffle Fries (wheat)\n\tAssorted Desserts\n",
+    "Wednesday": "Lunch:\n\tBlack Pepper Beef (soy,\n\tshellfish)\n\tCrispy Chicken Wrap\n\t(wheat, milk)\n\tTator Bucks (GF)\n\tAssorted Desserts\n",
+    "Thursday": "Lunch:\n\tBeef Brisket Sandwich on a\n\tBrioche Bun (wheat, egg,\n\tmilk, soy)\n\tSmothered Gouda and\n\tBacon Chicken (milk)\n\tBaked Potato Bar (items on\n\tbar may contain allergens)\n\tAssorted Desserts\n",
+    "Friday": "Lunch:\n\tFish Tacos (fish, wheat)\n\tGrilled Cheese (wheat, milk)\n\tGrilled Ham and Cheese\n\t(wheat, milk)\n\tCurly Fries (wheat)\n\tAssorted Desserts\n",
+    "Saturday": "Brunch\n\tCrème Brule French Toast\n\t(wheat, milk, egg)\n\tHam (GF)\n\tSeasoned Breakfast Potatoes\n\tCorn Dogs (wheat, milk, egg,\n\tsoy)\n\tAssorted Bakery\n",
+    "Sunday": "Brunch\n\tBreakfast Burrito Bar (egg,\n\tmilk, wheat)\n\tHash Browns (GF)\n\tFajita Vegetables (GF)\n\tAssorted Bakery\n"
+  },
+  {
+    "Monday": "Dinner:\n\tHam Steak (GF)\n\tItalian Meatball Sandwich\n\t(wheat, soy, milk)\n\tPotato Soufflé (wheat, milk, soy,\n\tegg)\n\tAssorted Desserts\n",
+    "Tuesday": "Dinner:\n\tChicken and Beef Tacos\n\t(shells contain wheat)\n\tBlack Beans (GF)\n\tRefried Beans (GF)\n\tAssorted Desserts\n",
+    "Wednesday": "Dinner:\n\tBeef Sirloin (Rotisserie\n\tStyle) (GF)\n\tParsley Buttered Redskin\n\tPotatoes (milk) (GF)\n\tTricolor Cheese Tortellini\n\t(wheat, milk, egg)\n\tAssorted Desserts\n",
+    "Thursday": "Dinner:\n\tBreakfast for Dinner\n\tCinnamon Swirl French\n\tToast (wheat, egg, milk)\n\tScrambled Eggs (egg) (GF)\n\tBiscuits and Gravy (wheat,\n\tmilk, soy)\n\tSmoked Pork Chops (GF)\n\tBreakfast Potatoes (GF)\n\tAssorted Bakery\n",
+    "Friday": "Dinner:\n\tHomemade Meatloaf (wheat,\n\tegg)\n\tWhite Fish (fish) (GF)\n\tCandied Carrots  (GF)\n\tAssorted Desserts\n",
+    "Saturday": "Dinner:\n\tChicken Strips (wheat, milk)\n\tMacaroni and Cheese\n\t(wheat, milk)\n\tFried Potato Wedges\n\t(wheat)\n\tLemon Peppered\n\tCauliflower (wheat)\n\tAssorted Desserts\n",
+    "Sunday": "Dinner:\n\tPot Roast with Vegetables\n\tand Gravy (soy, wheat)\n\tPasta with Roasted\n\tVegetables (wheat, milk)\n\tSour Cream Potato Bake\n\t(milk, wheat, soy)\n\tAssorted Desserts\n"
+  }
+]

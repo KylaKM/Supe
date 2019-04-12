@@ -19,7 +19,7 @@ import java.util.Calendar;
 import java.util.LinkedHashMap;
 import java.util.List;
 
-public class Tab1Fragment extends Fragment {
+public class Tab31Fragment extends Fragment {
     private static final String TAG = "Today";
     TextView txt1;
     private String today;
@@ -58,9 +58,9 @@ public class Tab1Fragment extends Fragment {
                 if (count == 0) {
                     menu.put(day, food);
                 } else if (count == 1) {
-                    menu.put(day, menu.get(day) + "\n" + food);
+                    menu.put(day, menu.get(day) + "\n\n" + food + "\n\n");
                 } else {
-                    menu.put(day, menu.get(day) + "\n" + food);
+                    menu.put(day, menu.get(day) + "\n\n" + food + "\n\n");
                 }
             } else {
                 reader.skipValue();
@@ -72,7 +72,7 @@ public class Tab1Fragment extends Fragment {
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         try {
-            InputStream in = getActivity().getAssets().open("Final Week Wads.json");
+            InputStream in = getActivity().getAssets().open("Final Week DHH.json");
             readJsonStream(in);
         }
         catch(IOException e) {
@@ -87,35 +87,35 @@ public class Tab1Fragment extends Fragment {
         SimpleDateFormat sd = new SimpleDateFormat("EEEE");
         String dayofweek = sd.format(c.getTime());
         switch(dayofweek) {
-                case "Sunday":
-                    today = menu.get("Sunday");
-                    break;
-                case "Monday":
-                    today = menu.get("Monday");
-                    break;
-                case "Tuesday":
-                    today = menu.get("Tuesday");
-                    break;
-                case "Wednesday":
-                    today = menu.get("Wednesday");
-                    break;
-                case "Thursday":
-                    today = menu.get("Thursday");
-                    break;
-                case "Friday":
-                    today = menu.get("Friday");
-                    break;
-                case "Saturday":
-                    today = menu.get("Saturday");
-                    break;
+            case "Sunday":
+                today = menu.get("Sunday");
+                break;
+            case "Monday":
+                today = menu.get("Monday");
+                break;
+            case "Tuesday":
+                today = menu.get("Tuesday");
+                break;
+            case "Wednesday":
+                today = menu.get("Wednesday");
+                break;
+            case "Thursday":
+                today = menu.get("Thursday");
+                break;
+            case "Friday":
+                today = menu.get("Friday");
+                break;
+            case "Saturday":
+                today = menu.get("Saturday");
+                break;
         }
     }
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.tab1_fragment, container, false);
-        txt1 = (TextView) view.findViewById(R.id.textTab1);
+        View view = inflater.inflate(R.layout.tab3_1fragment, container, false);
+        txt1 = (TextView) view.findViewById(R.id.text3Tab1);
         txt1.setText(today);
         setHasOptionsMenu(true);
         return view;

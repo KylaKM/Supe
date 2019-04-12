@@ -9,21 +9,15 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
-
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.text.SimpleDateFormat;
-import java.util.Arrays;
-import java.util.Calendar;
 import java.util.LinkedHashMap;
-import java.util.List;
 
-public class Tab1Fragment extends Fragment {
-    private static final String TAG = "Today";
-    TextView txt1;
-    private String today;
-    private List<String> days = Arrays.asList("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday");
+public class Tab23Fragment extends Fragment {
+    private static final String TAG = "Week";
+    TextView txt3;
+    private String week = "";
     private LinkedHashMap<String, String> menu = new LinkedHashMap<>();
 
     public void readJsonStream(InputStream in) throws IOException {
@@ -72,51 +66,29 @@ public class Tab1Fragment extends Fragment {
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         try {
-            InputStream in = getActivity().getAssets().open("Final Week Wads.json");
+            InputStream in = getActivity().getAssets().open("Final Week McNair.json");
             readJsonStream(in);
         }
         catch(IOException e) {
             e.printStackTrace();
         }
-        setDay();
+        setWeek();
         super.onCreate(savedInstanceState);
     }
 
-    public void setDay() {
-        Calendar c= Calendar.getInstance();
-        SimpleDateFormat sd = new SimpleDateFormat("EEEE");
-        String dayofweek = sd.format(c.getTime());
-        switch(dayofweek) {
-                case "Sunday":
-                    today = menu.get("Sunday");
-                    break;
-                case "Monday":
-                    today = menu.get("Monday");
-                    break;
-                case "Tuesday":
-                    today = menu.get("Tuesday");
-                    break;
-                case "Wednesday":
-                    today = menu.get("Wednesday");
-                    break;
-                case "Thursday":
-                    today = menu.get("Thursday");
-                    break;
-                case "Friday":
-                    today = menu.get("Friday");
-                    break;
-                case "Saturday":
-                    today = menu.get("Saturday");
-                    break;
+    public void setWeek() {
+        for(String str : menu.keySet()) {
+            week += str + ":" + "\n\n" + menu.get(str) + "\n";
+
         }
     }
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.tab1_fragment, container, false);
-        txt1 = (TextView) view.findViewById(R.id.textTab1);
-        txt1.setText(today);
+        View view = inflater.inflate(R.layout.tab2_2fragment, container, false);
+        txt3 = (TextView)view.findViewById(R.id.text2Tab2);
+        txt3.setText(week);
         setHasOptionsMenu(true);
         return view;
     }

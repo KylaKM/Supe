@@ -1,0 +1,29 @@
+[
+  {
+    "Monday": "Breakfast:\n\tContinental Breakfast\n\tAssorted Bakery\n",
+    "Tuesday": "Breakfast:\n\tContinental Breakfast\n\tAssorted Bakery\n",
+    "Wednesday": "Breakfast:\n\tContinental Breakfast\n\tAssorted Bakery\n",
+    "Thursday": "Breakfast:\n\tContinental Breakfast\n\tAssorted Bakery\n",
+    "Friday": "Breakfast:\n\tContinental Breakfast\n\tAssorted Bakery\n",
+    "Saturday": "",
+    "Sunday": ""
+  },
+  {
+    "Monday": "Lunch:\n\tCalifornia Turkey Burger (bun\n\tcontains wheat)\n\tWhite Cheddar Mac and Cheese\n\tBar (milk, wheat, soy)\n\tChili Bar (GF)\n\tCorn Bread (GF)\n\tBreaded Potato Cheddar Bites\n\t(wheat, milk)\n\tAssorted Desserts\n",
+    "Tuesday": "Lunch:\n\tBBQ Chicken Thighs (GF)\n\tCorn Dogs (wheat, milk,\n\tsoy)\nWaffle Fries (wheat)\n\tAssorted Desserts\n",
+    "Wednesday": "Lunch:\n\tBlack Pepper Beef (soy,\n\tshellfish)\n\tCrispy Chicken Wrap\n(wheat, milk)\n\tTator Bucks (GF)\n\tAssorted Desserts\n",
+    "Thursday": "Lunch:\n\tBeef Brisket Sandwich on a\n\tBrioche Bun (wheat, egg,\n\tmilk, soy)\n\tSmothered Gouda and\n\tBacon Chicken (milk)\n\tBaked Potato Bar (items on\n\tbar may contain allergens)\n\tAssorted Desserts\n",
+    "Friday": "Lunch:\n\tFish Tacos (fish, wheat)\n\tGrilled Cheese (wheat, milk)\n\tGrilled Ham and Cheese\n\t(wheat, milk)\n\tCurly Fries (wheat)\n\tAssorted Desserts\n",
+    "Saturday": "",
+    "Sunday": ""
+  },
+  {
+    "Monday": "Dinner:\n\tHam Steak (GF)\n\tItalian Meatball Sandwich\n\t(wheat, soy, milk)\n\tPotato Soufflé (wheat, milk, soy,\n\tegg)\n\tAssorted Desserts\n",
+    "Tuesday": "Dinner:\n\tChicken and Beef Tacos\n\t(shells contain wheat)\n\tBlack Beans (GF)\n\tRefried Beans (GF)\n\tAssorted Desserts\n",
+    "Wednesday": "Dinner:\n\tBeef Sirloin (Rotisserie\n\tStyle) (GF)\n\tParsley Buttered Redskin\n\tPotatoes (milk) (GF)\n\tTricolor Cheese Tortellini\n\t(wheat, milk, egg)\n\tAssorted Desserts\n",
+    "Thursday": "Dinner:\n\tBreakfast for Dinner\n\tCinnamon Swirl French\n\tToast (wheat, egg, milk)\n\tScrambled Eggs (egg) (GF)\n\tBiscuits and Gravy (wheat,\n\tmilk, soy)\n\tSmoked Pork Chops (GF)\n\tBreakfast Potatoes (GF)\n\tAssorted Bakery\n",
+    "Friday": "Dinner:\n\tHomemade Meatloaf (wheat,\n\tegg)\n\tWhite Fish (fish) (GF)\n\tCandied Carrots  (GF)\n\tAssorted Desserts\n",
+    "Saturday": "",
+    "Sunday": ""
+  }
+]

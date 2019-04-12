@@ -52,9 +52,9 @@ public class Tab3Fragment extends Fragment {
                 if (count == 0) {
                     menu.put(day, food);
                 } else if (count == 1) {
-                    menu.put(day, menu.get(day) + food);
+                    menu.put(day, menu.get(day) + "\n" + food);
                 } else {
-                    menu.put(day, menu.get(day) + food);
+                    menu.put(day, menu.get(day) + "\n" + food);
                 }
             } else {
                 reader.skipValue();
@@ -66,7 +66,7 @@ public class Tab3Fragment extends Fragment {
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         try {
-            InputStream in = getActivity().getAssets().open("Week11.json");
+            InputStream in = getActivity().getAssets().open("Final Week Wads.json");
             readJsonStream(in);
         }
         catch(IOException e) {
@@ -78,7 +78,7 @@ public class Tab3Fragment extends Fragment {
 
     public void setWeek() {
         for(String str : menu.keySet()) {
-            week += str + "\n\n" + menu.get(str) + "\n";
+            week += str + ":" + "\n\n" + menu.get(str) + "\n";
 
         }
      }

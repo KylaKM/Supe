@@ -1,46 +1,41 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context="com.example.dininghall.MainActivity">
+    tools:context="com.example.dininghall.Main4Activity">
 
     <item
         android:id="@+id/Wads"
-        android:checkable="false"
-        android:enabled="true"
         android:orderInCategory="100"
         android:title="@string/Wads"
-        android:visible="true"
-        app:showAsAction="never" />
+        app:showAsAction = "never"
+        />
 
     <item
         android:id="@+id/DHH"
-        android:enabled="true"
         android:orderInCategory="100"
         android:title="@string/DHH"
-        android:visible="true"
-        app:showAsAction="never" />
+        app:showAsAction="never"
+        />
 
     <item
         android:id="@+id/McNair"
-        android:enabled="true"
         android:orderInCategory="100"
         android:title="@string/McNair"
-        android:visible="true"
-        app:showAsAction="never" />
+        app:showAsAction="never"
+        />
 
     <item
         android:id="@+id/Cafe"
-        android:enabled="true"
         android:orderInCategory="100"
         android:title="@string/Cafe"
-        android:visible="true"
-        app:showAsAction = "never" />
+        app:showAsAction="never"
+        />
 
     <item
         android:id="@+id/my_account_info"
-        android:enabled="true"
         android:orderInCategory="100"
         android:title="@string/my_account_info"
-        android:visible="true"
-        app:showAsAction="never" />
+        app:showAsAction="never"
+        />
 </menu>
+

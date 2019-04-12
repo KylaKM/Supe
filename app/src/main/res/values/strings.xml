@@ -30,4 +30,12 @@
     <string name="tomorrow">Tomorrow</string>
     <string name="week">Week</string>
     <string name="my_account_info">My Account Info</string>
+    <string name="DHH">DHH</string>
+    <string name="McNair">McNair</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_main3">Main3Activity</string>
+    <string name="Wads">Wads</string>
+    <string name="title_activity_main4">Main4Activity</string>
+    <string name="Cafe">Cafe</string>
+    <string name="options_menu">Menu</string>
 </resources>
