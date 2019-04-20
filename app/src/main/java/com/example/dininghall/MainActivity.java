@@ -16,7 +16,6 @@ import android.view.MenuItem;
 public class MainActivity extends AppCompatActivity {
 
     private static final String TAG = "Wads";
-    Toolbar toolbar;
     private SectionsPageAdapter mSectionsPageAdapter;
     private ViewPager mViewPager;
     private int[] tabIcons = {
@@ -96,11 +95,5 @@ public class MainActivity extends AppCompatActivity {
             default:
                 return super.onOptionsItemSelected(item);
         }
-    }
-
-    @Nullable
-    @Override
-    public ActionBar getSupportActionBar() {
-        return super.getSupportActionBar();
     }
 }
